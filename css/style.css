@@ -1,0 +1,58 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+ul {
+    display: flex;
+    padding: 20px;
+    justify-content: right;
+}
+
+li {
+    list-style-type: none;
+    padding: 0px 20px;
+}
+
+#Header p {
+    text-align: center;
+}
+
+#Header img {
+    width: 40vw;
+    height: auto;
+}
+
+.header-contents {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+}
+
+h2 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.bg-slider {
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+
+#Introduction img {
+    width: 30vw;
+    height: auto;
+}
+
+.intro {
+    display: flex;
+}
+
+.courses {
+    display: flex;
+}
