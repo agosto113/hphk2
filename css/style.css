@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'Futura-LigObl';
+    /* フォント名 */
+    /* フォーマットごとにパスを指定 */
+    src: url('../fonts/Futura-LigObl.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Futura-Boo';
+    /* フォント名 */
+    /* フォーマットごとにパスを指定 */
+    src: url('../fonts/Futura-Boo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Futura-Bol';
+    /* フォント名 */
+    /* フォーマットごとにパスを指定 */
+    src: url('../fonts/Futura-Bol.ttf') format('truetype');
+}
+
+
 * {
     margin: 0%;
     padding: 0%;
@@ -55,4 +77,12 @@ h2 {
 
 .courses {
     display: flex;
+    position: absolute;
+    top: 0;
+}
+
+.bg {
+    background: #D6E5F9;
+    position: relative;
+    z-index: 1;
 }

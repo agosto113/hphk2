@@ -1,18 +1,4 @@
-/* -----------------------------------------------
-/* How to use? : Check the GitHub README
-/* ----------------------------------------------- */
-
-/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
-/*
-particlesJS.load('particles-js', 'particles.json', function() {
-  console.log('particles.js loaded - callback');
-});
-*/
-
-/* Otherwise just put the config content (json): */
-
 particlesJS('particles-js',
-  
   {
     "particles": {
       "number": {
@@ -68,7 +54,7 @@ particlesJS('particles-js',
         "width": 1
       },
       "move": {
-        "enable": true,
+        "enable": false,
         "speed": 6,
         "direction": "none",
         "random": false,
@@ -85,11 +71,11 @@ particlesJS('particles-js',
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": true,
+          "enable": false,
           "mode": "repulse"
         },
         "onclick": {
-          "enable": true,
+          "enable": false,
           "mode": "push"
         },
         "resize": true
@@ -129,5 +115,4 @@ particlesJS('particles-js',
       "background_size": "cover"
     }
   }
-
 );
